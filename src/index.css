@@ -26,22 +26,22 @@ button {
   cursor: pointer;
 }
 
-/* navbar */
-
-
-/* page content */
-
-
-/* help layout */
-
-
-/* faq */
-
-
-/* careers list */
-
-
-/* careers details */
-
-
-/* breadcrumbs */
+header nav{
+  display: flex;
+  gap: 50px;
+  justify-content: end;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+header nav h1{
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+header nav a{
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+header nav a.active {
+  background: var(--primary);
+}
